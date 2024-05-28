@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 2px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/****************************************************************/
+/**********************************************************/
+/***********************************************/
+/**************navegacion***/
+
+header{
+    width: 100%;
+    height: 34px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section{
+    list-style: none;
+    width: 255px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+nav .nav-right-section a{
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+}
+nav .nav-right-section .menu {
+    background-image: url(https://cdn.icon-icons.com/icons2/3251/PNG/512/grid_dots_regular_icon_202870.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav .nav-right-section img{
+    margin-right: 20px;
+    object-fit: fill;
+}
+.logo-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+main {
+    margin-top: 198px;
+    text-align: center;
+}
+main .main-logo{
+    background-position: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+main .main-logo a{
+    height: 92px; 
+}
+main .main-input{
+    width: 530px ;
+    margin: 0 auto;
+    height: 40px;
+}
+main .main-input-container{
+    display: flex;
+    width: 580px;
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    align-items: center;
+}
+main .main-input input{
+    display: flex;
+    height: 40px;
+    border:none;
+    outline: none;
+    width: 450px;
+}
+main .main-input .search-icon {
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcU1Ib7F_uwp-5GVDKvFloiYlgn6DqqEEO8jGLVdEQAg&s);
+    /* background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+    /* padding-left: 10px;
+    background-repeat: no-repeat; */
+    padding: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    background-position: cent
+    /* margin-right: 18px;
+    margin-left: 15px; */
+}
+main .main-input .micro-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/600px-Google_mic.svg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 25px;
+    margin-right: 15px;
+    margin-left: 1px;
+}
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 25px;
+    margin-right: 13px;
+
+}
+main .main-input-container:hover {
+    box-shadow: 1px 1px 1px 1px #20212447;
+    border-color: #dfe1e500;
+    padding: 3px;
+}
+main .main-buttons{
+    width: 550px;
+    /*vertical-horizontal*/
+    margin: 0 auto;
+}
+main .main-buttons div {
+    /*alinear elementos en la misma linea*/
+    display: inline;
+}
+main .main-buttons button {
+    /*separacion entre  buscador y botones*/
+    margin-top: 27px;
+    /*eleminar borde negro--none or 0px*/
+    border: none;
+    height: 40px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    pad: 0px 15px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+main .main-buttons button:haver{
+    color:#202124 ;
+    /*borde+ oscuro al pasar mouse*/
+    border: 1px solid #dadce0;
+    /*sombra al pasar el mouse*/
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,.1) ;
+}
+
